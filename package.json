@@ -1,7 +1,15 @@
 {
   "name": "@ktmitax/koishi-plugin-answerbook",
-  "description": "",
-  "version": "0.0.1",
+  "description": "A simple plugin of answerbook",
+  "version": "1.0.0",
+  "contributors": [
+    "ktmitax <ktmitax@163.com>"
+  ],
+  "homepage": "https://github.com/ktmitax/koishi-plugin-answerbook", 
+  "repository": {
+  "type": "git",
+  "url": "git+https://github.com/ktmitax/koishi-plugin-answerbook.git"
+  },
   "main": "lib/index.js",
   "typings": "lib/index.d.ts",
   "files": [
@@ -16,5 +24,24 @@
   ],
   "peerDependencies": {
     "koishi": "^4.17.6"
+  },
+  "koishi": {
+    "name": "koishi-plugin-answerbook",
+    "version": "1.0.0",
+    "peerDependencies": {
+      "koishi": "^4.3.2"
+    },
+    "koishi": {
+      "description": {
+        "en": "A simple plugin of answerbook",
+        "zh": "简单的答案之书插件"
+      },
+      "service": {
+        "required": [],
+        "optional": [],
+        "implements": []
+      },
+      "locales": ["en", "zh"]
+    }
   }
 }
